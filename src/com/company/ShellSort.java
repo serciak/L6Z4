@@ -14,8 +14,8 @@ public class ShellSort {
         ArrayList<Integer> arr = new ArrayList<>();
 
         //for(int i = 1; i < size; i = (3*i)+1)
-            arr.add(1);
-        for(int i = 2; i < size; i = i*i)
+            //arr.add(i);
+        for(int i = 1; i < size; i = 2*i)
             arr.add(i);
         return arr;
     }

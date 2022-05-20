@@ -19,6 +19,7 @@ public class Main {
 
         ShellSort ss = new ShellSort();
         ss.sort(list);
+        System.out.println("H = 2*H");
         System.out.println("Porownania: " + ss.getComparisons() + "\tZamiany: " + ss.getSwaps());
     }
 }
